@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="@drawable/advice_background"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:elevation="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/permanent_marker"
+            android:text="Quote of the day"
+            android:textColor="@color/text_green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_medium_italic"
+            android:text="25 May 2022"
+            android:textColor="@color/text_green"
+            android:textSize="12sp" />
+            <TextView
+
+                android:id="@+id/tvAdvice"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/dummy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/text_light"
+                android:fontFamily="@font/poppins_medium_italic"/>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginRight="10dp"-->
+
+<!--                >-->
+<!--                <LinearLayout-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="3dp"-->
+<!--                    android:background="@color/line"-->
+<!--                    android:layout_gravity="center"/>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="3dp"-->
+<!--                    android:background="@color/line"/>-->
+<!--            </LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
